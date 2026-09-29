@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Monitoreo de Calidad del Aire por AGEB</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{--bg:#f2f5fa;--tx:#1f2a3c;--mut:#6b778c;--bd:#e3e8f0}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tx)}
+header{background:linear-gradient(135deg,#1e3c72,#2a5298);color:#fff;padding:22px 28px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+header h1{margin:0;font-size:1.6rem;cursor:pointer}
+header p{margin:4px 0 0;opacity:.8;font-size:.9rem}
+.busca{flex:1;min-width:260px;max-width:520px}
+.busca input{width:100%;padding:14px 18px;border:0;border-radius:10px;font-size:1rem}
+main{padding:22px 28px;max-width:1400px;margin:auto}
+.grid{display:grid;gap:16px;margin-bottom:16px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.dos{grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr))}
+.card{background:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 2px 8px #1e3c7218;min-width:0}
+.kpi{border-left:4px solid #2a5298;text-align:center}
+.kpi small{color:var(--mut)}
+.kpi b{display:block;font-size:1.8rem;margin:4px 0}
+.badge{display:inline-block;padding:2px 12px;border-radius:99px;color:#fff;font-size:.78rem;font-weight:600}
+h2{font-size:1.05rem;margin:0 0 12px}
+#mapa,#mapaA{height:440px;border-radius:10px}
+.ch{height:300px;position:relative}
+table{width:100%;border-collapse:collapse;font-size:.86rem}
+th{color:var(--mut);font-weight:600}
+td,th{padding:6px 8px;border-bottom:1px solid var(--bd);text-align:left}
+tr.f{cursor:pointer}
+tr.f:hover{background:#eef3fb}
+.tog{margin-bottom:16px;display:flex;gap:8px;align-items:center}
+.tog button,.volver{border:1px solid #2a5298;background:#fff;color:#2a5298;padding:7px 18px;border-radius:8px;font-weight:600;cursor:pointer}
+.tog button.on{background:#2a5298;color:#fff}
+.ley{margin-top:8px;font-size:.78rem}
+.ley span{margin-right:12px}
+.ley i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:4px;vertical-align:-1px}
+.heat{display:grid;grid-template-columns:34px repeat(24,1fr);gap:2px;font-size:.65rem;color:var(--mut);text-align:center}
+.heat i{height:22px;border-radius:3px}
+.nota{font-size:.88rem;color:var(--mut);margin:10px 0 0;line-height:1.5}
+.volver{margin-bottom:14px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1 id="logo">🌬️ Monitoreo de Calidad del Aire por AGEB</h1>
+    <p id="sub">Área Metropolitana de Monterrey — Histórico interpolado</p>
+  </div>
+  <div class="busca"><input id="q" list="dl" placeholder="Buscar por Clave AGEB (CVEGEO)…"><datalist id="dl"></datalist></div>
+</header>
+<main>
+  <div id="msg" class="card">Cargando histórico…</div>
+
+  <section id="home" hidden>
+    <div class="tog"><span>Contaminante:</span><button data-p="pm25" class="on">PM2.5</button><button data-p="pm10">PM10</button></div>
+    <div id="kpis" class="grid kpis"></div>
+    <div class="grid dos">
+      <div class="card"><h2>Mapa de calidad del aire actual</h2><div id="mapa"></div><div id="ley" class="ley"></div></div>
+      <div>
+        <div class="card" style="margin-bottom:16px"><h2>Peor calidad ahora (top 10)</h2><div id="peor"></div></div>
+        <div class="card"><h2>Mejor calidad ahora (top 10)</h2><div id="mejor"></div></div>
+      </div>
+    </div>
+    <div class="grid dos">
+      <div class="card"><h2>Zonas que requieren más atención (histórico)</h2><div id="aten"></div><p class="nota">Ordenadas por el porcentaje de lecturas en calidad Mala o peor. Solo AGEB con al menos 10 lecturas.</p></div>
+      <div class="card"><h2>Evolución del promedio metropolitano</h2><div class="ch"><canvas id="cTend"></canvas></div><div id="peores" class="nota"></div></div>
+    </div>
+    <div class="grid dos">
+      <div class="card"><h2>Promedio por hora del día</h2><div class="ch"><canvas id="cHora"></canvas></div><div id="pico" class="nota"></div></div>
+      <div class="card"><h2>Momentos de peor calidad: día y hora</h2><div id="heat" class="heat"></div><p class="nota">Más intenso = mayor concentración promedio. Horario de Monterrey.</p></div>
+    </div>
+  </section>
+
+  <section id="det" hidden>
+    <button class="volver" onclick="location.hash=''">← Resumen general</button>
+    <div id="dcont">
+      <h2 id="dtit" style="font-size:1.3rem"></h2>
+      <div id="dk" class="grid kpis"></div>
+      <div class="grid dos">
+        <div class="card"><h2>Polígono de la AGEB</h2><div id="mapaA"></div></div>
+        <div class="card"><h2>Datos de la AGEB</h2><div id="datos"></div></div>
+      </div>
+      <div class="grid dos">
+        <div class="card"><h2>Histórico de concentraciones (PM2.5 vs PM10)</h2><div class="ch"><canvas id="cHist"></canvas></div></div>
+        <div class="card"><h2>Promedio por hora del día</h2><div class="ch"><canvas id="cHoraA"></canvas></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+// ---- Configuración ----
+const RUTA = "historico/";                 // carpeta con AQ_historico_YYYY-MM-DD.geojson
+const DIAS = +new URLSearchParams(location.search).get("dias") || 7; // ?dias=14 para más historia
+const TZ = -6;                             // Monterrey = UTC-6 (sin horario de verano)
+const TH = {pm25: [15, 33, 79, 130], pm10: [45, 60, 132, 213]};
+const NIV = ["Bueno", "Aceptable", "Mala", "Muy alta", "Extremadamente mala"];
+const COL = ["#2e9e4f", "#e0b000", "#f07d1a", "#d62f2f", "#7d2a8f"];
+const NP = {pm25: "PM2.5", pm10: "PM10"}, Q = ["pm25", "pm10"];
+const DIA = ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"];
+
+// ---- Utilidades ----
+const $ = id => document.getElementById(id);
+const nivel = (p, v) => v == null ? -1 : TH[p].filter(t => v > t).length;
+const color = (p, v) => COL[nivel(p, v)] || "#9aa5b5";
+const nom = (p, v) => NIV[nivel(p, v)] || "Sin datos";
+const fmt = v => v == null ? "—" : v.toFixed(1);
+const num = v => v == null ? "—" : Number(v).toLocaleString("es-MX");
+const p2 = n => String(n).padStart(2, "0");
+const loc = t => new Date(t + TZ * 36e5);
+const etq = t => { const d = loc(t); return `${p2(d.getUTCDate())}/${p2(d.getUTCMonth() + 1)} ${p2(d.getUTCHours())}:${p2(d.getUTCMinutes())}`; };
+const badge = (p, v) => `<span class="badge" style="background:${color(p, v)}">${nom(p, v)}</span>`;
+const ult = a => a.serie[a.serie.length - 1];
+const media = (a, p) => { const s = a.st[p]; return s.n ? s.s / s.n : null; };
+const prom = ([s, n]) => n ? +(s / n).toFixed(2) : null;
+const nuevoH = () => [...Array(168)].map(() => ({s: 0, n: 0}));
+const idx = t => { const d = loc(t); return d.getUTCDay() * 24 + d.getUTCHours(); };
+const hora24 = H => [...Array(24)].map((_, h) => {
+  let s = 0, n = 0;
+  for (let d = 0; d < 7; d++) { s += H[d * 24 + h].s; n += H[d * 24 + h].n; }
+  return prom([s, n]);
+});
+
+// ---- Datos ----
+const A = new Map();                        // cvegeo -> AGEB
+const H = {pm25: nuevoH(), pm10: nuevoH()}; // agregado metropolitano por día/hora
+const T = new Map();                        // timestamp -> promedio metropolitano por corrida
+let TMAX = 0, P = "pm25", mapa, capa, mapaA, capaA;
+
+function procesar(fc) {
+  for (const f of fc.features) {
+    const p = f.properties, cve = p.cvegeo;
+    let a = A.get(cve);
+    if (!a) { a = {cve, st: {pm25: {s: 0, n: 0, m: 0, e: 0}, pm10: {s: 0, n: 0, m: 0, e: 0}}, serie: []}; A.set(cve, a); }
+    a.geo = f.geometry; a.d = p;
+    for (const h of p.historial || []) {
+      const t = Date.parse(h.timestamp), k = idx(t);
+      a.serie.push({t, pm25: h.pm25, pm10: h.pm10, n: h.n_sensores, m: h.metodo});
+      let tt = T.get(t);
+      if (!tt) T.set(t, tt = {pm25: [0, 0], pm10: [0, 0]});
+      for (const q of Q) {
+        const v = h[q];
+        if (v == null) continue;
+        const s = a.st[q];
+        s.s += v; s.n++; s.m = Math.max(s.m, v);
+        if (v > TH[q][1]) s.e++;
+        H[q][k].s += v; H[q][k].n++;
+        tt[q][0] += v; tt[q][1]++;
+      }
+    }
+    p.historial = null;
+  }
+}
+
+async function cargar() {
+  let ok = 0;
+  for (let i = DIAS - 1; i >= 0; i--) {
+    const d = new Date(Date.now() - i * 864e5).toISOString().slice(0, 10);
+    try {
+      const r = await fetch(`${RUTA}AQ_historico_${d}.geojson`);
+      if (!r.ok) continue;
+      procesar(await r.json());
+      $("msg").textContent = `Cargando histórico… ${++ok} día(s)`;
+    } catch (e) { /* día sin archivo */ }
+  }
+  TMAX = Math.max(...T.keys());
+}
+
+// ---- Gráficas ----
+const CH = {};
+const graf = (id, cfg) => { if (CH[id]) CH[id].destroy(); CH[id] = new Chart($(id), cfg); };
+const opt = {responsive: true, maintainAspectRatio: false, interaction: {mode: "index", intersect: false},
+  scales: {y: {beginAtZero: true, title: {display: true, text: "µg/m³"}}}};
+const linea = (l, d, c, x = {}) => ({label: l, data: d, borderColor: c, backgroundColor: c + "22", tension: .3, pointRadius: 0, borderWidth: 2, ...x});
+const barras = H24 => ({type: "bar", options: opt, data: {labels: [...Array(24)].map((_, h) => h + ":00"), datasets: [
+  {label: "PM2.5 (µg/m³)", data: hora24(H24.pm25), backgroundColor: "#d62f2f"},
+  {label: "PM10 (µg/m³)", data: hora24(H24.pm10), backgroundColor: "#2a7fd4"}]}});
+
+// ---- Tablas ----
+const tabla = (cab, filas) => `<table><tr>${cab.map(c => `<th>${c}</th>`).join("")}</tr>${filas.join("")}</table>`;
+const fila = (a, cel) => `<tr class="f" data-c="${a.cve}"><td>${a.cve}</td>${cel.map(c => `<td>${c}</td>`).join("")}</tr>`;
+
+// ---- Vista general ----
+function pintarMapa(act) {
+  if (!mapa) {
+    mapa = L.map("mapa", {preferCanvas: true});
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {attribution: "© OpenStreetMap"}).addTo(mapa);
+  }
+  if (capa) capa.remove();
+  capa = L.geoJSON({type: "FeatureCollection", features: act.filter(a => a.geo).map(a =>
+      ({type: "Feature", geometry: a.geo, properties: {c: a.cve, v: ult(a)[P]}}))}, {
+    style: f => ({color: "#334155aa", weight: .6, fillColor: color(P, f.properties.v), fillOpacity: .65}),
+    onEachFeature: (f, l) => {
+      l.bindTooltip(`${f.properties.c}<br>${NP[P]}: ${fmt(f.properties.v)} µg/m³`, {sticky: true});
+      l.on("click", () => location.hash = f.properties.c);
+    }
+  }).addTo(mapa);
+  setTimeout(() => { mapa.invalidateSize(); if (!mapa._fit) { mapa.fitBounds(capa.getBounds()); mapa._fit = 1; } }, 0);
+}
+
+function heat(Hq) {
+  const v = Hq.map(c => c.n ? c.s / c.n : null), f = v.filter(x => x != null);
+  const lo = Math.min(...f), hi = Math.max(...f);
+  let h = "<i></i>" + [...Array(24)].map((_, i) => `<small>${i}</small>`).join("");
+  for (const d of [1, 2, 3, 4, 5, 6, 0]) {
+    h += `<small>${DIA[d]}</small>`;
+    for (let i = 0; i < 24; i++) {
+      const x = v[d * 24 + i];
+      h += x == null ? '<i style="background:#eee"></i>'
+        : `<i title="${DIA[d]} ${i}:00 — ${x.toFixed(1)} µg/m³" style="background:rgba(214,47,47,${(.1 + .9 * (x - lo) / ((hi - lo) || 1)).toFixed(2)})"></i>`;
+    }
+  }
+  $("heat").innerHTML = h;
+}
+
+function home() {
+  $("home").hidden = false; $("det").hidden = true;
+  const todas = [...A.values()];
+  const act = todas.filter(a => { const u = ult(a); return u.t === TMAX && u[P] != null; });
+  if (!act.length) { $("msg").hidden = false; $("msg").textContent = "No hay lecturas de la última corrida."; return; }
+  const pm = act.reduce((s, a) => s + ult(a)[P], 0) / act.length;
+  const mala = act.filter(a => nivel(P, ult(a)[P]) >= 2).length;
+  $("kpis").innerHTML = [
+    ["AGEB monitoreadas", act.length, `de ${todas.length} con histórico`],
+    [`Promedio actual ${NP[P]}`, fmt(pm) + " µg/m³", badge(P, pm)],
+    ["AGEB en calidad Mala o peor", (100 * mala / act.length).toFixed(1) + "%", `${mala} AGEB`],
+    ["Última actualización", etq(TMAX), "hora Monterrey"]
+  ].map(k => `<div class="card kpi"><small>${k[0]}</small><b>${k[1]}</b>${k[2]}</div>`).join("");
+
+  $("ley").innerHTML = NIV.map((n, i) => `<span><i style="background:${COL[i]}"></i>${n}</span>`).join("");
+  pintarMapa(act);
+
+  const ord = [...act].sort((x, y) => ult(y)[P] - ult(x)[P]);
+  const rk = l => l.map(a => fila(a, [fmt(ult(a)[P]) + " " + badge(P, ult(a)[P]), fmt(media(a, P))]));
+  const cab = ["AGEB", `${NP[P]} actual`, "Prom. histórico"];
+  $("peor").innerHTML = tabla(cab, rk(ord.slice(0, 10)));
+  $("mejor").innerHTML = tabla(cab, rk(ord.slice(-10).reverse()));
+
+  const aten = todas.filter(a => a.st[P].n >= 10).map(a => ({a, r: a.st[P].e / a.st[P].n}))
+    .sort((x, y) => y.r - x.r || media(y.a, P) - media(x.a, P)).slice(0, 10);
+  $("aten").innerHTML = tabla(["AGEB", "% del tiempo Mala o peor", "Prom.", "Máx.", "Población"],
+    aten.map(({a, r}) => fila(a, [(r * 100).toFixed(0) + "%", fmt(media(a, P)), fmt(a.st[P].m), num(a.d.poblacion_total)])));
+
+  const ks = [...T.keys()].sort((a, b) => a - b);
+  graf("cTend", {type: "line", options: opt, data: {labels: ks.map(etq), datasets: [
+    linea("PM2.5", ks.map(k => prom(T.get(k).pm25)), "#d62f2f", {fill: true}),
+    linea("PM10", ks.map(k => prom(T.get(k).pm10)), "#2a7fd4")]}});
+  const peores = ks.map(k => [k, prom(T.get(k)[P])]).filter(x => x[1] != null).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  $("peores").innerHTML = `<b>5 momentos con peor ${NP[P]} (promedio metropolitano):</b> ` +
+    peores.map(([k, v]) => `${etq(k)} (${fmt(v)})`).join(" · ");
+
+  graf("cHora", barras(H));
+  const hp = hora24(H[P]).map((v, h) => [v, h]).filter(x => x[0] != null).sort((a, b) => b[0] - a[0]);
+  $("pico").innerHTML = hp.length ? `<b>Horas con peor ${NP[P]}:</b> ` +
+    hp.slice(0, 3).map(([v, h]) => `${h}:00 h (${fmt(v)} µg/m³)`).join(", ") +
+    `. <b>Mejor hora:</b> ${hp.at(-1)[1]}:00 h (${fmt(hp.at(-1)[0])} µg/m³).` : "";
+  heat(H[P]);
+}
+
+// ---- Vista por AGEB ----
+function detalle(cve) {
+  $("home").hidden = true; $("det").hidden = false;
+  const a = A.get(cve);
+  if (!a) { $("dcont").hidden = true; $("msg").hidden = false; $("msg").textContent = `No se encontró la AGEB ${cve} en el histórico cargado.`; return; }
+  $("msg").hidden = true; $("dcont").hidden = false;
+  const u = ult(a), d = a.d;
+  $("dtit").innerHTML = `AGEB <span class="badge" style="background:#0d6efd;font-size:1rem">${cve}</span>`;
+  $("dk").innerHTML = Q.map(q => `<div class="card kpi"><small>Último ${NP[q]} registrado</small><b>${fmt(u[q])} µg/m³</b>${badge(q, u[q])}<div><small>${etq(u.t)}</small></div></div>`).join("") +
+    Q.map(q => `<div class="card kpi"><small>Promedio histórico ${NP[q]}</small><b>${fmt(media(a, q))} µg/m³</b><small>Máx: ${fmt(a.st[q].m)} µg/m³</small></div>`).join("");
+
+  const HA = {pm25: nuevoH(), pm10: nuevoH()};
+  for (const r of a.serie) for (const q of Q) if (r[q] != null) { const c = HA[q][idx(r.t)]; c.s += r[q]; c.n++; }
+  const pct = q => a.st[q].n ? (100 * a.st[q].e / a.st[q].n).toFixed(0) + "%" : "—";
+  const hp = hora24(HA.pm25).map((v, h) => [v, h]).filter(x => x[0] != null).sort((x, y) => y[0] - x[0]);
+  const fl = (k, v) => `<tr><td>${k}</td><td><b>${v}</b></td></tr>`;
+  $("datos").innerHTML = `<table>${[
+    ["Población total", num(d.poblacion_total)], ["Niños de 0 a 5 años", num(d.ninos_0a5)],
+    ["Mayores de 60 años", num(d.adultos_mayores)], ["Personas con discapacidad", num(d.personas_discapacidad)],
+    ["Sensores dentro de la AGEB (última lectura)", u.n], ["Método de la última lectura", (u.m || "—").replace(/_/g, " ")],
+    ["Lecturas registradas", num(a.serie.length)],
+    ["% del tiempo en Mala o peor (PM2.5 / PM10)", pct("pm25") + " / " + pct("pm10")],
+    ["Hora con peor PM2.5", hp.length ? `${hp[0][1]}:00 h (${fmt(hp[0][0])} µg/m³)` : "—"]
+  ].map(r => fl(...r)).join("")}</table>`;
+
+  if (!mapaA) {
+    mapaA = L.map("mapaA");
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {attribution: "© OpenStreetMap"}).addTo(mapaA);
+  }
+  if (capaA) capaA.remove();
+  capaA = L.geoJSON({type: "Feature", geometry: a.geo}, {style: {color: "#1e3c72", weight: 3, fillColor: color("pm25", u.pm25), fillOpacity: .45}}).addTo(mapaA);
+  setTimeout(() => { mapaA.invalidateSize(); mapaA.fitBounds(capaA.getBounds()); }, 0);
+
+  graf("cHist", {type: "line", options: opt, data: {labels: a.serie.map(r => etq(r.t)), datasets: [
+    linea("PM2.5 (µg/m³)", a.serie.map(r => r.pm25), "#d62f2f", {fill: true}),
+    linea("PM10 (µg/m³)", a.serie.map(r => r.pm10), "#2a7fd4", {borderDash: [5, 4]})]}});
+  graf("cHoraA", barras(HA));
+}
+
+// ---- Navegación ----
+function ruta() {
+  if (!A.size) return;
+  const h = decodeURIComponent(location.hash.slice(1));
+  h ? detalle(h) : home();
+  scrollTo(0, 0);
+}
+addEventListener("hashchange", ruta);
+$("logo").onclick = () => location.hash = "";
+$("q").addEventListener("change", e => { location.hash = e.target.value.trim(); e.target.value = ""; });
+document.addEventListener("click", e => {
+  const tr = e.target.closest("tr.f");
+  if (tr) location.hash = tr.dataset.c;
+  const b = e.target.closest(".tog button");
+  if (b) {
+    P = b.dataset.p;
+    document.querySelectorAll(".tog button").forEach(x => x.classList.toggle("on", x === b));
+    home();
+  }
+});
+
+(async () => {
+  await cargar();
+  if (!A.size) {
+    $("msg").innerHTML = `No se encontraron archivos <code>${RUTA}AQ_historico_YYYY-MM-DD.geojson</code> de los últimos ${DIAS} días.<br>
+      Abre esta página desde un servidor (Live Server o GitHub Pages, no con file://) y verifica la constante <code>RUTA</code>.`;
+    return;
+  }
+  $("msg").hidden = true;
+  $("dl").innerHTML = [...A.keys()].sort().map(c => `<option value="${c}">`).join("");
+  const ks = [...T.keys()].sort((a, b) => a - b);
+  $("sub").textContent = `Área Metropolitana de Monterrey — Histórico interpolado · ${etq(ks[0])} a ${etq(TMAX)} · ${ks.length} corridas`;
+  ruta();
+})();
+</script>
+</body>
+</html>

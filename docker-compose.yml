@@ -1,0 +1,8 @@
+services:
+  purpleair-app:
+    build: .
+    container_name: purpleair_processor
+    environment:
+      - API_KEY_PURPLEAIR=${API_KEY_PURPLEAIR}
+    volumes:
+      - .:/app

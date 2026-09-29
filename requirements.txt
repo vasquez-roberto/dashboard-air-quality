@@ -1,0 +1,9 @@
+numpy
+pandas
+requests
+scipy
+pyshp
+shapely
+geopandas
+python-dotenv
+geojson

@@ -1,0 +1,1945 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.37312,
+          25.662691
+        ]
+      },
+      "properties": {
+        "sensor_index": 278863,
+        "name": "Rio Balsas",
+        "pm1_0": 2.9,
+        "pm2_5": 3.5,
+        "pm10_0": 3.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3525,
+          25.638226
+        ]
+      },
+      "properties": {
+        "sensor_index": 278869,
+        "name": "Veredalta",
+        "pm1_0": 2.6,
+        "pm2_5": 2.9,
+        "pm10_0": 3.5,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36872,
+          25.636341
+        ]
+      },
+      "properties": {
+        "sensor_index": 278871,
+        "name": "Parroquia Reina de Los Ángeles",
+        "pm1_0": 2.7,
+        "pm2_5": 3.2,
+        "pm10_0": 3.5,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.38136,
+          25.667723
+        ]
+      },
+      "properties": {
+        "sensor_index": 278875,
+        "name": "Secretaría de Relaciones Exteriores",
+        "pm1_0": 2.7,
+        "pm2_5": 3.4,
+        "pm10_0": 4.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.362755,
+          25.641127
+        ]
+      },
+      "properties": {
+        "sensor_index": 278883,
+        "name": "Mater International Institute",
+        "pm1_0": 2.2,
+        "pm2_5": 3.0,
+        "pm10_0": 3.2,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.355156,
+          25.607624
+        ]
+      },
+      "properties": {
+        "sensor_index": 278889,
+        "name": "Chipinque Meseta",
+        "pm1_0": 3.0,
+        "pm2_5": 3.8,
+        "pm10_0": 4.6,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.376305,
+          25.644024
+        ]
+      },
+      "properties": {
+        "sensor_index": 278901,
+        "name": "OFICINAS SAN PEDRO PARQUES",
+        "pm1_0": 2.9,
+        "pm2_5": 3.5,
+        "pm10_0": 3.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.34808,
+          25.630367
+        ]
+      },
+      "properties": {
+        "sensor_index": 278919,
+        "name": "Residencia Tabachín",
+        "pm1_0": 1.8,
+        "pm2_5": 2.3,
+        "pm10_0": 2.7,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.38283,
+          25.659946
+        ]
+      },
+      "properties": {
+        "sensor_index": 278929,
+        "name": "Rio Caura",
+        "pm1_0": 3.3,
+        "pm2_5": 4.0,
+        "pm10_0": 4.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36023,
+          25.630522
+        ]
+      },
+      "properties": {
+        "sensor_index": 278931,
+        "name": "Residencia Platon",
+        "pm1_0": 2.8,
+        "pm2_5": 3.2,
+        "pm10_0": 3.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.349236,
+          25.652473
+        ]
+      },
+      "properties": {
+        "sensor_index": 278937,
+        "name": "Residencia Saqqara",
+        "pm1_0": 1.7,
+        "pm2_5": 2.2,
+        "pm10_0": 2.7,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36027,
+          25.656303
+        ]
+      },
+      "properties": {
+        "sensor_index": 278939,
+        "name": "Residencia Rio Rosas",
+        "pm1_0": 2.5,
+        "pm2_5": 3.1,
+        "pm10_0": 3.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.397354,
+          25.672205
+        ]
+      },
+      "properties": {
+        "sensor_index": 278957,
+        "name": "Los Pinos",
+        "pm1_0": 3.0,
+        "pm2_5": 4.1,
+        "pm10_0": 5.4,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.39641,
+          25.657562
+        ]
+      },
+      "properties": {
+        "sensor_index": 278959,
+        "name": "Colegio Nobel",
+        "pm1_0": 3.3,
+        "pm2_5": 3.9,
+        "pm10_0": 4.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.31643,
+          25.643766
+        ]
+      },
+      "properties": {
+        "sensor_index": 278955,
+        "name": "Residencia San Mateo",
+        "pm1_0": 1.2,
+        "pm2_5": 1.7,
+        "pm10_0": 1.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.338165,
+          25.646032
+        ]
+      },
+      "properties": {
+        "sensor_index": 279836,
+        "name": "San Roberto International School San Agustin",
+        "pm1_0": 3.0,
+        "pm2_5": 3.6,
+        "pm10_0": 4.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.349976,
+          25.65975
+        ]
+      },
+      "properties": {
+        "sensor_index": 279854,
+        "name": "Pinos",
+        "pm1_0": 1.7,
+        "pm2_5": 1.9,
+        "pm10_0": 2.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.33173,
+          25.638052
+        ]
+      },
+      "properties": {
+        "sensor_index": 279866,
+        "name": "Lomas del Campestre",
+        "pm1_0": 3.3,
+        "pm2_5": 3.8,
+        "pm10_0": 4.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.37315,
+          25.624146
+        ]
+      },
+      "properties": {
+        "sensor_index": 279890,
+        "name": "María Desatadora de Nudos",
+        "pm1_0": 3.2,
+        "pm2_5": 3.7,
+        "pm10_0": 4.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36317,
+          25.657495
+        ]
+      },
+      "properties": {
+        "sensor_index": 279926,
+        "name": "Parque Mississippi",
+        "pm1_0": 1.5,
+        "pm2_5": 1.8,
+        "pm10_0": 1.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36256,
+          25.648457
+        ]
+      },
+      "properties": {
+        "sensor_index": 280524,
+        "name": "Privada Paso de la Sierra",
+        "pm1_0": 2.5,
+        "pm2_5": 2.7,
+        "pm10_0": 3.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.34154,
+          25.639212
+        ]
+      },
+      "properties": {
+        "sensor_index": 280520,
+        "name": "Irish International School Campus First School",
+        "pm1_0": 2.5,
+        "pm2_5": 3.2,
+        "pm10_0": 3.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.32734,
+          25.64443
+        ]
+      },
+      "properties": {
+        "sensor_index": 280532,
+        "name": "Museo La Milarca",
+        "pm1_0": 2.5,
+        "pm2_5": 3.2,
+        "pm10_0": 3.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36313,
+          25.662497
+        ]
+      },
+      "properties": {
+        "sensor_index": 280534,
+        "name": "Residencia Savotino",
+        "pm1_0": 3.6,
+        "pm2_5": 4.4,
+        "pm10_0": 4.6,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.368286,
+          25.61478
+        ]
+      },
+      "properties": {
+        "sensor_index": 280644,
+        "name": "Residencia nogal",
+        "pm1_0": 3.2,
+        "pm2_5": 3.7,
+        "pm10_0": 4.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.344666,
+          25.65677
+        ]
+      },
+      "properties": {
+        "sensor_index": 280900,
+        "name": "Rio Necaxa",
+        "pm1_0": 3.5,
+        "pm2_5": 4.1,
+        "pm10_0": 4.5,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.37394,
+          25.658936
+        ]
+      },
+      "properties": {
+        "sensor_index": 280902,
+        "name": "Residencia Rio Pesqueria",
+        "pm1_0": 3.0,
+        "pm2_5": 3.4,
+        "pm10_0": 4.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.29044,
+          25.644045
+        ]
+      },
+      "properties": {
+        "sensor_index": 284960,
+        "name": "Esquina Barranquilla y Patagonia (Altavista)",
+        "pm1_0": 1.7,
+        "pm2_5": 2.3,
+        "pm10_0": 3.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2869,
+          25.649517
+        ]
+      },
+      "properties": {
+        "sensor_index": 285170,
+        "name": "Residencias XII",
+        "pm1_0": 2.4,
+        "pm2_5": 3.0,
+        "pm10_0": 3.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28977,
+          25.654285
+        ]
+      },
+      "properties": {
+        "sensor_index": 286240,
+        "name": "Casa Naranjos",
+        "pm1_0": 1.5,
+        "pm2_5": 2.1,
+        "pm10_0": 2.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.29351,
+          25.686438
+        ]
+      },
+      "properties": {
+        "sensor_index": 288064,
+        "name": "Terminal",
+        "pm1_0": 4.8,
+        "pm2_5": 6.5,
+        "pm10_0": 8.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.324974,
+          25.67851
+        ]
+      },
+      "properties": {
+        "sensor_index": 288066,
+        "name": "Hospital de San Vicente",
+        "pm1_0": 5.6,
+        "pm2_5": 6.7,
+        "pm10_0": 7.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.34783,
+          25.688875
+        ]
+      },
+      "properties": {
+        "sensor_index": 288332,
+        "name": "Facultad de Salud Pública y Nutrición",
+        "pm1_0": 4.8,
+        "pm2_5": 5.7,
+        "pm10_0": 7.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.26312,
+          25.658117
+        ]
+      },
+      "properties": {
+        "sensor_index": 292893,
+        "name": "TEC-AMM-RB-005",
+        "pm1_0": 2.5,
+        "pm2_5": 2.9,
+        "pm10_0": 3.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.26622,
+          25.774128
+        ]
+      },
+      "properties": {
+        "sensor_index": 292895,
+        "name": "TEC-AMM-RD-004",
+        "pm1_0": 3.1,
+        "pm2_5": 3.8,
+        "pm10_0": 5.2,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.22748,
+          25.654068
+        ]
+      },
+      "properties": {
+        "sensor_index": 292889,
+        "name": "TEC-AMM-RB-003",
+        "pm1_0": 4.6,
+        "pm2_5": 5.6,
+        "pm10_0": 6.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.17398,
+          25.639277
+        ]
+      },
+      "properties": {
+        "sensor_index": 292891,
+        "name": "TEC-AMM-RC-004",
+        "pm1_0": 2.7,
+        "pm2_5": 3.1,
+        "pm10_0": 4.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36825,
+          25.770947
+        ]
+      },
+      "properties": {
+        "sensor_index": 292897,
+        "name": "TEC-AMM-RF-005",
+        "pm1_0": 3.6,
+        "pm2_5": 4.2,
+        "pm10_0": 5.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.1551,
+          25.608519
+        ]
+      },
+      "properties": {
+        "sensor_index": 292905,
+        "name": "TEC-AMM-RC-006",
+        "pm1_0": 3.1,
+        "pm2_5": 3.6,
+        "pm10_0": 4.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.14929,
+          25.646128
+        ]
+      },
+      "properties": {
+        "sensor_index": 292943,
+        "name": "TEC-AMM-RC-005",
+        "pm1_0": 4.6,
+        "pm2_5": 5.8,
+        "pm10_0": 6.7,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.399,
+          25.658657
+        ]
+      },
+      "properties": {
+        "sensor_index": 292939,
+        "name": "TEC-AMM-RA-001",
+        "pm1_0": 3.1,
+        "pm2_5": 3.9,
+        "pm10_0": 4.4,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36972,
+          25.661757
+        ]
+      },
+      "properties": {
+        "sensor_index": 292949,
+        "name": "TEC-AMM-RA-003",
+        "pm1_0": 2.3,
+        "pm2_5": 3.0,
+        "pm10_0": 4.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3313,
+          25.66194
+        ]
+      },
+      "properties": {
+        "sensor_index": 292951,
+        "name": "TEC-AMM-RB-004",
+        "pm1_0": 3.0,
+        "pm2_5": 3.6,
+        "pm10_0": 4.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36298,
+          25.684696
+        ]
+      },
+      "properties": {
+        "sensor_index": 292947,
+        "name": "TEC-AMM-RA-004",
+        "pm1_0": 3.9,
+        "pm2_5": 4.7,
+        "pm10_0": 5.4,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.13724,
+          25.731503
+        ]
+      },
+      "properties": {
+        "sensor_index": 292957,
+        "name": "TEC-AMM-RC-008",
+        "pm1_0": 2.5,
+        "pm2_5": 2.9,
+        "pm10_0": 3.6,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.17443,
+          25.684975
+        ]
+      },
+      "properties": {
+        "sensor_index": 292973,
+        "name": "TEC-AMM-RC-003",
+        "pm1_0": 3.4,
+        "pm2_5": 4.2,
+        "pm10_0": 5.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.31656,
+          25.73373
+        ]
+      },
+      "properties": {
+        "sensor_index": 292997,
+        "name": "TEC-AMM-RF-004",
+        "pm1_0": 3.8,
+        "pm2_5": 4.7,
+        "pm10_0": 6.2,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.31119,
+          25.772509
+        ]
+      },
+      "properties": {
+        "sensor_index": 292999,
+        "name": "TEC-AMM-RE-002",
+        "pm1_0": 3.3,
+        "pm2_5": 3.8,
+        "pm10_0": 4.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.37077,
+          25.71829
+        ]
+      },
+      "properties": {
+        "sensor_index": 293001,
+        "name": "TEC-AMM-RF-006",
+        "pm1_0": 3.5,
+        "pm2_5": 4.3,
+        "pm10_0": 5.6,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.29272,
+          25.676483
+        ]
+      },
+      "properties": {
+        "sensor_index": 293003,
+        "name": "TEC-AMM-RB-006",
+        "pm1_0": 4.0,
+        "pm2_5": 4.9,
+        "pm10_0": 6.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.33521,
+          25.67212
+        ]
+      },
+      "properties": {
+        "sensor_index": 293469,
+        "name": "Leon Ortigosa ABP",
+        "pm1_0": 1.2,
+        "pm2_5": 1.6,
+        "pm10_0": 2.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.34373,
+          25.665812
+        ]
+      },
+      "properties": {
+        "sensor_index": 293465,
+        "name": "Loma Larga",
+        "pm1_0": 2.9,
+        "pm2_5": 3.5,
+        "pm10_0": 3.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.342964,
+          25.687622
+        ]
+      },
+      "properties": {
+        "sensor_index": 293467,
+        "name": "UMF37",
+        "pm1_0": 3.5,
+        "pm2_5": 4.5,
+        "pm10_0": 4.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.26256,
+          25.600061
+        ]
+      },
+      "properties": {
+        "sensor_index": 33027,
+        "name": "Lagos del Bosque",
+        "pm1_0": 0.6,
+        "pm2_5": 1.5,
+        "pm10_0": 1.7,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.32849,
+          25.650322
+        ]
+      },
+      "properties": {
+        "sensor_index": 33117,
+        "name": "Liceo de Monterrey",
+        "pm1_0": 9.3,
+        "pm2_5": 10.5,
+        "pm10_0": 10.5,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3976,
+          25.6665
+        ]
+      },
+      "properties": {
+        "sensor_index": 34441,
+        "name": "Callejon de los Ayala",
+        "pm1_0": 0.1,
+        "pm2_5": 0.7,
+        "pm10_0": 0.7,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3472,
+          25.641743
+        ]
+      },
+      "properties": {
+        "sensor_index": 34499,
+        "name": "San Patricio #106",
+        "pm1_0": 0.0,
+        "pm2_5": 0.0,
+        "pm10_0": 0.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.392265,
+          25.640432
+        ]
+      },
+      "properties": {
+        "sensor_index": 34511,
+        "name": "Rosario",
+        "pm1_0": 2.1,
+        "pm2_5": 3.0,
+        "pm10_0": 3.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.319695,
+          25.678823
+        ]
+      },
+      "properties": {
+        "sensor_index": 38663,
+        "name": "Rayon Norte",
+        "pm1_0": 4.2,
+        "pm2_5": 5.4,
+        "pm10_0": 6.2,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.316124,
+          25.61638
+        ]
+      },
+      "properties": {
+        "sensor_index": 42211,
+        "name": "RF",
+        "pm1_0": 1.2,
+        "pm2_5": 1.7,
+        "pm10_0": 2.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.33541,
+          25.700935
+        ]
+      },
+      "properties": {
+        "sensor_index": 305140,
+        "name": "Bicla",
+        "pm1_0": 3.8,
+        "pm2_5": 4.9,
+        "pm10_0": 6.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.27929,
+          25.688787
+        ]
+      },
+      "properties": {
+        "sensor_index": 305164,
+        "name": "NuevaMaderoDave",
+        "pm1_0": 3.5,
+        "pm2_5": 4.3,
+        "pm10_0": 5.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.35898,
+          25.69958
+        ]
+      },
+      "properties": {
+        "sensor_index": 305192,
+        "name": "11a avenida cumbres 1 sector",
+        "pm1_0": 4.0,
+        "pm2_5": 4.9,
+        "pm10_0": 5.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3062,
+          25.651157
+        ]
+      },
+      "properties": {
+        "sensor_index": 305232,
+        "name": "PurpleAir Ancira Mty",
+        "pm1_0": 3.3,
+        "pm2_5": 4.4,
+        "pm10_0": 5.2,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.35398,
+          25.67425
+        ]
+      },
+      "properties": {
+        "sensor_index": 43627,
+        "name": "Liceo de Monterrey Rosemont",
+        "pm1_0": 5.1,
+        "pm2_5": 5.5,
+        "pm10_0": 5.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.399216,
+          25.637255
+        ]
+      },
+      "properties": {
+        "sensor_index": 45769,
+        "name": "Huascaran",
+        "pm1_0": 1.5,
+        "pm2_5": 2.0,
+        "pm10_0": 2.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.289,
+          25.650595
+        ]
+      },
+      "properties": {
+        "sensor_index": 308956,
+        "name": "Jardín de las carreras",
+        "pm1_0": 2.4,
+        "pm2_5": 3.3,
+        "pm10_0": 3.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.29761,
+          25.677492
+        ]
+      },
+      "properties": {
+        "sensor_index": 49949,
+        "name": "El Horizonte",
+        "pm1_0": 7.7,
+        "pm2_5": 10.6,
+        "pm10_0": 11.5,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36743,
+          25.638243
+        ]
+      },
+      "properties": {
+        "sensor_index": 50555,
+        "name": "Treviño",
+        "pm1_0": 0.0,
+        "pm2_5": 0.0,
+        "pm10_0": 0.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.27293,
+          25.61827
+        ]
+      },
+      "properties": {
+        "sensor_index": 50871,
+        "name": "TEC Garza Laguera",
+        "pm1_0": 2.5,
+        "pm2_5": 3.2,
+        "pm10_0": 3.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.29781,
+          25.61975
+        ]
+      },
+      "properties": {
+        "sensor_index": 321194,
+        "name": "Ramsesgs",
+        "pm1_0": 2.0,
+        "pm2_5": 2.5,
+        "pm10_0": 3.3,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.37474,
+          25.71012
+        ]
+      },
+      "properties": {
+        "sensor_index": 119937,
+        "name": "Grupo Reforma Cumbres",
+        "pm1_0": 0.0,
+        "pm2_5": 0.1,
+        "pm10_0": 0.2,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.30816,
+          25.674164
+        ]
+      },
+      "properties": {
+        "sensor_index": 119965,
+        "name": "Grupo Reforma El Norte",
+        "pm1_0": 0.0,
+        "pm2_5": 0.0,
+        "pm10_0": 0.5,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.273186,
+          25.637156
+        ]
+      },
+      "properties": {
+        "sensor_index": 121719,
+        "name": "GrupoReforma La Silla",
+        "pm1_0": 0.0,
+        "pm2_5": 0.0,
+        "pm10_0": 0.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.251625,
+          25.65773
+        ]
+      },
+      "properties": {
+        "sensor_index": 136522,
+        "name": "Bosques de La Pastora",
+        "pm1_0": 0.0,
+        "pm2_5": 0.0,
+        "pm10_0": 0.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.38932,
+          25.661701
+        ]
+      },
+      "properties": {
+        "sensor_index": 147010,
+        "name": "Santa Barbara",
+        "pm1_0": 2.5,
+        "pm2_5": 3.4,
+        "pm10_0": 3.4,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.348114,
+          25.696613
+        ]
+      },
+      "properties": {
+        "sensor_index": 174781,
+        "name": "Colegio Cambridge de Monterrey Campus Mitras",
+        "pm1_0": 3.8,
+        "pm2_5": 4.4,
+        "pm10_0": 5.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28022,
+          25.779613
+        ]
+      },
+      "properties": {
+        "sensor_index": 174787,
+        "name": "Colegio Cambridge de Monterrey Campus Norte",
+        "pm1_0": 1.8,
+        "pm2_5": 2.0,
+        "pm10_0": 2.2,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.35996,
+          25.65725
+        ]
+      },
+      "properties": {
+        "sensor_index": 189431,
+        "name": "BEA",
+        "pm1_0": 2.6,
+        "pm2_5": 3.7,
+        "pm10_0": 3.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.37645,
+          25.618986
+        ]
+      },
+      "properties": {
+        "sensor_index": 189435,
+        "name": "Olinalá",
+        "pm1_0": 3.0,
+        "pm2_5": 4.1,
+        "pm10_0": 4.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.37172,
+          25.662104
+        ]
+      },
+      "properties": {
+        "sensor_index": 189447,
+        "name": "Río Amazonas NO",
+        "pm1_0": 4.3,
+        "pm2_5": 6.2,
+        "pm10_0": 6.4,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.359955,
+          25.618307
+        ]
+      },
+      "properties": {
+        "sensor_index": 189455,
+        "name": "CHIPINQUE CAV",
+        "pm1_0": 2.4,
+        "pm2_5": 3.7,
+        "pm10_0": 4.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.33364,
+          25.64684
+        ]
+      },
+      "properties": {
+        "sensor_index": 189469,
+        "name": "Hospital Zambran Hellion TecSalud",
+        "pm1_0": 2.5,
+        "pm2_5": 3.6,
+        "pm10_0": 3.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.26785,
+          25.77144
+        ]
+      },
+      "properties": {
+        "sensor_index": 208785,
+        "name": "Colegio Cambridge de Monterrey Campus Anáhuac",
+        "pm1_0": 2.5,
+        "pm2_5": 2.9,
+        "pm10_0": 3.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.375786,
+          25.691032
+        ]
+      },
+      "properties": {
+        "sensor_index": 209147,
+        "name": "Rincon de San Jeronimo",
+        "pm1_0": 3.1,
+        "pm2_5": 4.0,
+        "pm10_0": 4.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.291214,
+          25.651268
+        ]
+      },
+      "properties": {
+        "sensor_index": 227879,
+        "name": "Rectoria",
+        "pm1_0": 1.2,
+        "pm2_5": 1.6,
+        "pm10_0": 1.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3255,
+          25.64419
+        ]
+      },
+      "properties": {
+        "sensor_index": 227887,
+        "name": "Sensor_Purple_Air-Explanada_EGP-Entrada_Prin",
+        "pm1_0": 2.7,
+        "pm2_5": 3.7,
+        "pm10_0": 4.6,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28713,
+          25.652395
+        ]
+      },
+      "properties": {
+        "sensor_index": 227889,
+        "name": "Parque central",
+        "pm1_0": 0.2,
+        "pm2_5": 0.4,
+        "pm10_0": 0.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28277,
+          25.744081
+        ]
+      },
+      "properties": {
+        "sensor_index": 227907,
+        "name": "Estacionamiento Alumnos",
+        "pm1_0": 2.7,
+        "pm2_5": 3.3,
+        "pm10_0": 3.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.32573,
+          25.643106
+        ]
+      },
+      "properties": {
+        "sensor_index": 227913,
+        "name": "EGADE-Sombrillas",
+        "pm1_0": 2.2,
+        "pm2_5": 2.9,
+        "pm10_0": 3.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.27554,
+          25.61803
+        ]
+      },
+      "properties": {
+        "sensor_index": 228003,
+        "name": "EGL-Jardín Robótica",
+        "pm1_0": 1.1,
+        "pm2_5": 1.7,
+        "pm10_0": 2.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.20696,
+          25.656332
+        ]
+      },
+      "properties": {
+        "sensor_index": 228001,
+        "name": "C-MTY Explanada 2",
+        "pm1_0": 4.3,
+        "pm2_5": 5.6,
+        "pm10_0": 6.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28651,
+          25.654228
+        ]
+      },
+      "properties": {
+        "sensor_index": 228383,
+        "name": "Estadio Banorte",
+        "pm1_0": 1.7,
+        "pm2_5": 2.4,
+        "pm10_0": 2.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.30376,
+          25.628263
+        ]
+      },
+      "properties": {
+        "sensor_index": 228381,
+        "name": "C-MTY RAMPA CAFETERÍA",
+        "pm1_0": 2.2,
+        "pm2_5": 2.7,
+        "pm10_0": 3.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.35683,
+          25.670425
+        ]
+      },
+      "properties": {
+        "sensor_index": 228389,
+        "name": "PEGS-Sensor-Canchas",
+        "pm1_0": 1.9,
+        "pm2_5": 2.5,
+        "pm10_0": 2.7,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.29242,
+          25.653677
+        ]
+      },
+      "properties": {
+        "sensor_index": 228407,
+        "name": "CEDES",
+        "pm1_0": 1.5,
+        "pm2_5": 1.8,
+        "pm10_0": 2.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.27457,
+          25.61808
+        ]
+      },
+      "properties": {
+        "sensor_index": 228555,
+        "name": "EGL-JARDÍN ROB",
+        "pm1_0": 0.9,
+        "pm2_5": 1.5,
+        "pm10_0": 1.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 10": "Bueno",
+        "timestamp": "2026-09-29T00:33:35.637366+00:00"
+      }
+    }
+  ]
+}
