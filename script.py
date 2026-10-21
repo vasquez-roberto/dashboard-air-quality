@@ -34,7 +34,7 @@ SALIDA_GEOJSON_SENSORES = BASE_DIR / "sensores.geojson"
 SALIDA_GEOJSON_COLONIAS_PM25 = BASE_DIR / "AQ_PM25_v2.geojson"
 SALIDA_GEOJSON_COLONIAS_PM10 = BASE_DIR / "AQ_PM10.geojson"
 ARCHIVO_SHP_COLONIAS = BASE_DIR / "shp" / "2025_1_19_A.shp"
-CAMPOS = "pm1.0,pm2.5,pm10.0"
+CAMPOS = "pm1.0,pm2.5,pm10.0,humidity,temperature"
 
 MIN_PM = 0.0
 MAX_PM25 = 500.4
@@ -110,7 +110,7 @@ def leer_csv(ruta):
 
 
 def consultar_sensor(sensor_index):
-    """Devuelve (pm1.0, pm2.5, pm10.0) del sensor, o (None, None, None) si falla."""
+    """Devuelve (pm1.0, pm2.5, pm10.0, humidity, temp_c) del sensor, o Nones si falla."""
     if not API_KEY:
         raise RuntimeError("Falta API_KEY_PURPLEAIR en .env o en las variables de entorno")
 
@@ -119,10 +119,20 @@ def consultar_sensor(sensor_index):
         respuesta = requests.get(url, headers={"X-API-Key": API_KEY}, timeout=15)
         respuesta.raise_for_status()
         sensor = respuesta.json().get("sensor", {})
-        return sensor.get("pm1.0"), sensor.get("pm2.5"), sensor.get("pm10.0")
+        
+        pm1 = sensor.get("pm1.0")
+        pm25 = sensor.get("pm2.5")
+        pm10 = sensor.get("pm10.0")
+        humidity = sensor.get("humidity")
+        
+        # PurpleAir entrega la temperatura en Fahrenheit, se convierte a Celsius si existe
+        temp_f = sensor.get("temperature")
+        temp_c = round((temp_f - 32) * 5 / 9, 2) if temp_f is not None else None
+        
+        return pm1, pm25, pm10, humidity, temp_c
     except requests.RequestException as error:
         print(f"No se pudo consultar {sensor_index}: {error}")
-        return None, None, None
+        return None, None, None, None, None
 
 
 def clasificar_calidad_aire_pm25(valor):
@@ -207,7 +217,7 @@ def crear_geojson(df, timestamp):
 
     for _, fila in df.iterrows():
         sensor_id = int(fila["sensor_index"])
-        pm1, pm25, pm10 = consultar_sensor(sensor_id)
+        pm1, pm25, pm10, humedad, temperatura = consultar_sensor(sensor_id)
         if pm10 is None or pm25 is None:
             continue
 
@@ -217,20 +227,28 @@ def crear_geojson(df, timestamp):
         pm10, pm25 = valores
 
         coordenadas = [float(fila["longitude"]), float(fila["latitude"])]
-        nombre = fila.get("name", "")
-        pm1 = float(pm1) if pm1 is not None else None
+        nombre = str(fila.get("name", "")).strip()
+        pm1 = round(float(pm1), 2) if pm1 is not None else None
+        pm25 = round(float(pm25), 2)
+        pm10 = round(float(pm10), 2)
+        humedad = round(float(humedad), 2) if humedad is not None else None
+        temperatura = round(float(temperatura), 2) if temperatura is not None else None
+
         features.append({
             "type": "Feature",
             "geometry": {"type": "Point", "coordinates": coordenadas},
             "properties": {
-                "sensor_index": sensor_id,
-                "name": nombre,
-                "pm1_0": pm1,
-                "pm2_5": pm25,
-                "pm10_0": pm10,
+                "Fecha": timestamp,
+                "Humedad Relativa (%)": humedad,
+                "ID Sensor": str(sensor_id),  # Como cadena para evitar comas de miles/decimales en ArcGIS
+                "PM1.0 (ug/m3)": pm1,
+                "PM10 (ug/m3)": pm10,
+                "PM2.5 (ug/m3)": pm25,
+                "Red": "PurpleAir",
+                "Sensor": nombre,
+                "Temperatura (C)": temperatura,
                 "AQ PM 2.5": clasificar_calidad_aire_pm25(pm25),
                 "AQ PM 10": clasificar_calidad_aire_pm10(pm10),
-                "timestamp": timestamp,
             },
         })
         puntos.append(coordenadas)
