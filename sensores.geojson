@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 33.0,
         "ID Sensor": "278863",
         "PM1.0 (ug/m3)": 21.1,
@@ -34,15 +34,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 59.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 24.0,
         "ID Sensor": "278869",
-        "PM1.0 (ug/m3)": 12.9,
-        "PM10 (ug/m3)": 17.3,
-        "PM2.5 (ug/m3)": 15.6,
+        "PM1.0 (ug/m3)": 15.1,
+        "PM10 (ug/m3)": 20.1,
+        "PM2.5 (ug/m3)": 18.8,
         "Red": "PurpleAir",
         "Sensor": "Veredalta",
-        "Temperatura (C)": 21.67,
+        "Temperatura (C)": 40.0,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -57,16 +57,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": null,
         "ID Sensor": "278871",
-        "PM1.0 (ug/m3)": 8.1,
-        "PM10 (ug/m3)": 11.0,
-        "PM2.5 (ug/m3)": 9.9,
+        "PM1.0 (ug/m3)": 17.8,
+        "PM10 (ug/m3)": 25.0,
+        "PM2.5 (ug/m3)": 22.4,
         "Red": "PurpleAir",
         "Sensor": "Parroquia Reina de Los Ángeles",
         "Temperatura (C)": null,
-        "AQ PM 2.5": "Bueno",
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -80,17 +80,17 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 54.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 36.0,
         "ID Sensor": "278875",
-        "PM1.0 (ug/m3)": 12.1,
-        "PM10 (ug/m3)": 17.8,
-        "PM2.5 (ug/m3)": 15.4,
+        "PM1.0 (ug/m3)": 27.8,
+        "PM10 (ug/m3)": 49.8,
+        "PM2.5 (ug/m3)": 39.7,
         "Red": "PurpleAir",
         "Sensor": "Secretaría de Relaciones Exteriores",
-        "Temperatura (C)": 23.89,
-        "AQ PM 2.5": "Aceptable",
-        "AQ PM 10": "Bueno"
+        "Temperatura (C)": 31.11,
+        "AQ PM 2.5": "Mala",
+        "AQ PM 10": "Aceptable"
       }
     },
     {
@@ -103,16 +103,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 58.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 24.0,
         "ID Sensor": "278883",
-        "PM1.0 (ug/m3)": 7.0,
-        "PM10 (ug/m3)": 8.8,
-        "PM2.5 (ug/m3)": 8.2,
+        "PM1.0 (ug/m3)": 16.3,
+        "PM10 (ug/m3)": 22.7,
+        "PM2.5 (ug/m3)": 20.2,
         "Red": "PurpleAir",
         "Sensor": "Mater International Institute",
-        "Temperatura (C)": 22.78,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 40.0,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -126,12 +126,12 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": null,
         "ID Sensor": "278889",
-        "PM1.0 (ug/m3)": 4.1,
-        "PM10 (ug/m3)": 5.4,
-        "PM2.5 (ug/m3)": 5.0,
+        "PM1.0 (ug/m3)": 9.9,
+        "PM10 (ug/m3)": 13.6,
+        "PM2.5 (ug/m3)": 12.4,
         "Red": "PurpleAir",
         "Sensor": "Chipinque Meseta",
         "Temperatura (C)": null,
@@ -149,16 +149,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 60.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 29.0,
         "ID Sensor": "278901",
-        "PM1.0 (ug/m3)": 9.2,
-        "PM10 (ug/m3)": 11.6,
-        "PM2.5 (ug/m3)": 10.9,
+        "PM1.0 (ug/m3)": 20.6,
+        "PM10 (ug/m3)": 31.7,
+        "PM2.5 (ug/m3)": 27.1,
         "Red": "PurpleAir",
         "Sensor": "OFICINAS SAN PEDRO PARQUES",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 36.11,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -172,16 +172,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 56.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 23.0,
         "ID Sensor": "278919",
-        "PM1.0 (ug/m3)": 7.4,
-        "PM10 (ug/m3)": 11.0,
-        "PM2.5 (ug/m3)": 9.7,
+        "PM1.0 (ug/m3)": 12.1,
+        "PM10 (ug/m3)": 16.5,
+        "PM2.5 (ug/m3)": 15.3,
         "Red": "PurpleAir",
         "Sensor": "Residencia Tabachín",
-        "Temperatura (C)": 22.78,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 40.0,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -195,17 +195,17 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 58.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 32.0,
         "ID Sensor": "278929",
-        "PM1.0 (ug/m3)": 10.3,
-        "PM10 (ug/m3)": 13.9,
-        "PM2.5 (ug/m3)": 12.8,
+        "PM1.0 (ug/m3)": 26.9,
+        "PM10 (ug/m3)": 47.1,
+        "PM2.5 (ug/m3)": 38.4,
         "Red": "PurpleAir",
         "Sensor": "Rio Caura",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Bueno",
-        "AQ PM 10": "Bueno"
+        "Temperatura (C)": 33.33,
+        "AQ PM 2.5": "Mala",
+        "AQ PM 10": "Aceptable"
       }
     },
     {
@@ -218,16 +218,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 62.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 26.0,
         "ID Sensor": "278931",
-        "PM1.0 (ug/m3)": 9.3,
-        "PM10 (ug/m3)": 11.9,
-        "PM2.5 (ug/m3)": 11.0,
+        "PM1.0 (ug/m3)": 12.6,
+        "PM10 (ug/m3)": 19.7,
+        "PM2.5 (ug/m3)": 15.5,
         "Red": "PurpleAir",
         "Sensor": "Residencia Platon",
-        "Temperatura (C)": 21.67,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 38.89,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -241,16 +241,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 55.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 25.0,
         "ID Sensor": "278937",
-        "PM1.0 (ug/m3)": 8.1,
-        "PM10 (ug/m3)": 10.7,
-        "PM2.5 (ug/m3)": 9.8,
+        "PM1.0 (ug/m3)": 19.8,
+        "PM10 (ug/m3)": 28.4,
+        "PM2.5 (ug/m3)": 25.6,
         "Red": "PurpleAir",
         "Sensor": "Residencia Saqqara",
-        "Temperatura (C)": 23.33,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 38.33,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -264,16 +264,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 48.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 26.0,
         "ID Sensor": "278939",
-        "PM1.0 (ug/m3)": 8.4,
-        "PM10 (ug/m3)": 11.9,
-        "PM2.5 (ug/m3)": 10.6,
+        "PM1.0 (ug/m3)": 21.8,
+        "PM10 (ug/m3)": 36.0,
+        "PM2.5 (ug/m3)": 30.1,
         "Red": "PurpleAir",
         "Sensor": "Residencia Rio Rosas",
-        "Temperatura (C)": 26.11,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 38.33,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -287,7 +287,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 76.0,
         "ID Sensor": "278957",
         "PM1.0 (ug/m3)": 3.2,
@@ -310,15 +310,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 47.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 26.0,
         "ID Sensor": "278959",
-        "PM1.0 (ug/m3)": 12.5,
-        "PM10 (ug/m3)": 17.0,
-        "PM2.5 (ug/m3)": 15.9,
+        "PM1.0 (ug/m3)": 21.8,
+        "PM10 (ug/m3)": 32.1,
+        "PM2.5 (ug/m3)": 29.7,
         "Red": "PurpleAir",
         "Sensor": "Colegio Nobel",
-        "Temperatura (C)": 25.0,
+        "Temperatura (C)": 37.22,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -333,16 +333,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": null,
         "ID Sensor": "278955",
-        "PM1.0 (ug/m3)": 5.7,
-        "PM10 (ug/m3)": 7.4,
-        "PM2.5 (ug/m3)": 6.7,
+        "PM1.0 (ug/m3)": 13.6,
+        "PM10 (ug/m3)": 18.3,
+        "PM2.5 (ug/m3)": 16.5,
         "Red": "PurpleAir",
         "Sensor": "Residencia San Mateo",
         "Temperatura (C)": null,
-        "AQ PM 2.5": "Bueno",
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -356,16 +356,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 61.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 38.0,
         "ID Sensor": "279836",
-        "PM1.0 (ug/m3)": 7.1,
-        "PM10 (ug/m3)": 8.5,
-        "PM2.5 (ug/m3)": 8.0,
+        "PM1.0 (ug/m3)": 18.6,
+        "PM10 (ug/m3)": 25.6,
+        "PM2.5 (ug/m3)": 23.9,
         "Red": "PurpleAir",
         "Sensor": "San Roberto International School San Agustin",
-        "Temperatura (C)": 21.67,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 30.56,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -379,16 +379,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 64.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 20.0,
         "ID Sensor": "279854",
-        "PM1.0 (ug/m3)": 4.5,
-        "PM10 (ug/m3)": 5.6,
-        "PM2.5 (ug/m3)": 5.1,
+        "PM1.0 (ug/m3)": 14.6,
+        "PM10 (ug/m3)": 17.5,
+        "PM2.5 (ug/m3)": 16.5,
         "Red": "PurpleAir",
         "Sensor": "Pinos",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 46.67,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -402,16 +402,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 58.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 31.0,
         "ID Sensor": "279866",
-        "PM1.0 (ug/m3)": 9.5,
-        "PM10 (ug/m3)": 12.4,
-        "PM2.5 (ug/m3)": 11.3,
+        "PM1.0 (ug/m3)": 17.4,
+        "PM10 (ug/m3)": 22.7,
+        "PM2.5 (ug/m3)": 20.9,
         "Red": "PurpleAir",
         "Sensor": "Lomas del Campestre",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 34.44,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -425,16 +425,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 57.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 22.0,
         "ID Sensor": "279890",
-        "PM1.0 (ug/m3)": 6.3,
-        "PM10 (ug/m3)": 7.3,
-        "PM2.5 (ug/m3)": 7.0,
+        "PM1.0 (ug/m3)": 13.3,
+        "PM10 (ug/m3)": 17.6,
+        "PM2.5 (ug/m3)": 16.1,
         "Red": "PurpleAir",
         "Sensor": "María Desatadora de Nudos",
-        "Temperatura (C)": 20.56,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 40.0,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -448,7 +448,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 25.0,
         "ID Sensor": "279926",
         "PM1.0 (ug/m3)": 1.5,
@@ -471,16 +471,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 60.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 32.0,
         "ID Sensor": "280524",
-        "PM1.0 (ug/m3)": 7.0,
-        "PM10 (ug/m3)": 9.4,
-        "PM2.5 (ug/m3)": 8.1,
+        "PM1.0 (ug/m3)": 22.6,
+        "PM10 (ug/m3)": 35.6,
+        "PM2.5 (ug/m3)": 30.2,
         "Red": "PurpleAir",
         "Sensor": "Privada Paso de la Sierra",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 34.44,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -494,16 +494,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 57.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 36.0,
         "ID Sensor": "280520",
-        "PM1.0 (ug/m3)": 11.3,
-        "PM10 (ug/m3)": 15.3,
-        "PM2.5 (ug/m3)": 13.8,
+        "PM1.0 (ug/m3)": 18.7,
+        "PM10 (ug/m3)": 28.1,
+        "PM2.5 (ug/m3)": 24.1,
         "Red": "PurpleAir",
         "Sensor": "Irish International School Campus First School",
-        "Temperatura (C)": 22.78,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 32.22,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -517,16 +517,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 55.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 33.0,
         "ID Sensor": "280532",
-        "PM1.0 (ug/m3)": 6.2,
-        "PM10 (ug/m3)": 7.6,
-        "PM2.5 (ug/m3)": 7.1,
+        "PM1.0 (ug/m3)": 15.0,
+        "PM10 (ug/m3)": 19.8,
+        "PM2.5 (ug/m3)": 17.9,
         "Red": "PurpleAir",
         "Sensor": "Museo La Milarca",
-        "Temperatura (C)": 23.89,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 33.33,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -540,17 +540,17 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 64.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 45.0,
         "ID Sensor": "280534",
-        "PM1.0 (ug/m3)": 10.7,
-        "PM10 (ug/m3)": 13.8,
-        "PM2.5 (ug/m3)": 13.3,
+        "PM1.0 (ug/m3)": 28.3,
+        "PM10 (ug/m3)": 50.0,
+        "PM2.5 (ug/m3)": 39.9,
         "Red": "PurpleAir",
         "Sensor": "Residencia Savotino",
-        "Temperatura (C)": 21.67,
-        "AQ PM 2.5": "Bueno",
-        "AQ PM 10": "Bueno"
+        "Temperatura (C)": 27.78,
+        "AQ PM 2.5": "Mala",
+        "AQ PM 10": "Aceptable"
       }
     },
     {
@@ -563,15 +563,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 67.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 29.0,
         "ID Sensor": "280644",
-        "PM1.0 (ug/m3)": 5.5,
-        "PM10 (ug/m3)": 7.1,
-        "PM2.5 (ug/m3)": 6.4,
+        "PM1.0 (ug/m3)": 11.1,
+        "PM10 (ug/m3)": 14.6,
+        "PM2.5 (ug/m3)": 13.5,
         "Red": "PurpleAir",
         "Sensor": "Residencia nogal",
-        "Temperatura (C)": 17.78,
+        "Temperatura (C)": 35.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -586,7 +586,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 54.0,
         "ID Sensor": "280900",
         "PM1.0 (ug/m3)": 38.8,
@@ -609,16 +609,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 59.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 23.0,
         "ID Sensor": "280902",
-        "PM1.0 (ug/m3)": 9.7,
-        "PM10 (ug/m3)": 12.6,
-        "PM2.5 (ug/m3)": 11.7,
+        "PM1.0 (ug/m3)": 25.0,
+        "PM10 (ug/m3)": 42.2,
+        "PM2.5 (ug/m3)": 34.7,
         "Red": "PurpleAir",
         "Sensor": "Residencia Rio Pesqueria",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 40.0,
+        "AQ PM 2.5": "Mala",
         "AQ PM 10": "Bueno"
       }
     },
@@ -632,16 +632,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 61.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 44.0,
         "ID Sensor": "284960",
-        "PM1.0 (ug/m3)": 11.2,
-        "PM10 (ug/m3)": 15.3,
-        "PM2.5 (ug/m3)": 13.4,
+        "PM1.0 (ug/m3)": 15.5,
+        "PM10 (ug/m3)": 21.5,
+        "PM2.5 (ug/m3)": 18.6,
         "Red": "PurpleAir",
         "Sensor": "Esquina Barranquilla y Patagonia (Altavista)",
-        "Temperatura (C)": 23.89,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 30.0,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -655,16 +655,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 58.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 49.0,
         "ID Sensor": "285170",
-        "PM1.0 (ug/m3)": 8.8,
-        "PM10 (ug/m3)": 11.7,
-        "PM2.5 (ug/m3)": 10.0,
+        "PM1.0 (ug/m3)": 15.5,
+        "PM10 (ug/m3)": 23.8,
+        "PM2.5 (ug/m3)": 18.8,
         "Red": "PurpleAir",
         "Sensor": "Residencias XII",
-        "Temperatura (C)": 23.89,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 26.11,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -678,15 +678,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 66.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 48.0,
         "ID Sensor": "286240",
-        "PM1.0 (ug/m3)": 13.9,
-        "PM10 (ug/m3)": 20.0,
-        "PM2.5 (ug/m3)": 17.7,
+        "PM1.0 (ug/m3)": 14.7,
+        "PM10 (ug/m3)": 20.3,
+        "PM2.5 (ug/m3)": 18.5,
         "Red": "PurpleAir",
         "Sensor": "Casa Naranjos",
-        "Temperatura (C)": 22.78,
+        "Temperatura (C)": 28.89,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -701,15 +701,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 55.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 47.0,
         "ID Sensor": "288064",
-        "PM1.0 (ug/m3)": 17.3,
-        "PM10 (ug/m3)": 24.8,
-        "PM2.5 (ug/m3)": 21.5,
+        "PM1.0 (ug/m3)": 19.1,
+        "PM10 (ug/m3)": 36.8,
+        "PM2.5 (ug/m3)": 26.9,
         "Red": "PurpleAir",
         "Sensor": "Terminal",
-        "Temperatura (C)": 25.0,
+        "Temperatura (C)": 28.33,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -724,15 +724,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 68.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 48.0,
         "ID Sensor": "288066",
-        "PM1.0 (ug/m3)": 17.3,
-        "PM10 (ug/m3)": 23.8,
-        "PM2.5 (ug/m3)": 21.1,
+        "PM1.0 (ug/m3)": 21.2,
+        "PM10 (ug/m3)": 33.2,
+        "PM2.5 (ug/m3)": 27.1,
         "Red": "PurpleAir",
         "Sensor": "Hospital de San Vicente",
-        "Temperatura (C)": 21.11,
+        "Temperatura (C)": 27.78,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -747,16 +747,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 58.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 31.0,
         "ID Sensor": "288332",
-        "PM1.0 (ug/m3)": 16.6,
-        "PM10 (ug/m3)": 24.8,
-        "PM2.5 (ug/m3)": 21.5,
+        "PM1.0 (ug/m3)": 25.5,
+        "PM10 (ug/m3)": 43.4,
+        "PM2.5 (ug/m3)": 34.5,
         "Red": "PurpleAir",
         "Sensor": "Facultad de Salud Pública y Nutrición",
-        "Temperatura (C)": 23.33,
-        "AQ PM 2.5": "Aceptable",
+        "Temperatura (C)": 35.56,
+        "AQ PM 2.5": "Mala",
         "AQ PM 10": "Bueno"
       }
     },
@@ -770,16 +770,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": null,
         "ID Sensor": "292893",
-        "PM1.0 (ug/m3)": 10.1,
-        "PM10 (ug/m3)": 14.4,
-        "PM2.5 (ug/m3)": 12.4,
+        "PM1.0 (ug/m3)": 14.6,
+        "PM10 (ug/m3)": 20.8,
+        "PM2.5 (ug/m3)": 18.3,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RB-005",
         "Temperatura (C)": null,
-        "AQ PM 2.5": "Bueno",
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -793,15 +793,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 58.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 50.0,
         "ID Sensor": "292895",
-        "PM1.0 (ug/m3)": 15.7,
-        "PM10 (ug/m3)": 26.6,
-        "PM2.5 (ug/m3)": 21.2,
+        "PM1.0 (ug/m3)": 21.5,
+        "PM10 (ug/m3)": 36.4,
+        "PM2.5 (ug/m3)": 29.4,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RD-004",
-        "Temperatura (C)": 23.89,
+        "Temperatura (C)": 26.67,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -816,16 +816,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 53.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 41.0,
         "ID Sensor": "292889",
-        "PM1.0 (ug/m3)": 11.6,
-        "PM10 (ug/m3)": 16.3,
-        "PM2.5 (ug/m3)": 14.5,
+        "PM1.0 (ug/m3)": 16.7,
+        "PM10 (ug/m3)": 24.4,
+        "PM2.5 (ug/m3)": 20.3,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RB-003",
-        "Temperatura (C)": 25.0,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 30.0,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -839,15 +839,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 57.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 49.0,
         "ID Sensor": "292891",
-        "PM1.0 (ug/m3)": 14.1,
-        "PM10 (ug/m3)": 19.5,
-        "PM2.5 (ug/m3)": 17.3,
+        "PM1.0 (ug/m3)": 19.0,
+        "PM10 (ug/m3)": 29.4,
+        "PM2.5 (ug/m3)": 23.9,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RC-004",
-        "Temperatura (C)": 23.89,
+        "Temperatura (C)": 27.78,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -862,17 +862,17 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 60.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 49.0,
         "ID Sensor": "292897",
-        "PM1.0 (ug/m3)": 24.1,
-        "PM10 (ug/m3)": 47.3,
-        "PM2.5 (ug/m3)": 34.0,
+        "PM1.0 (ug/m3)": 233.7,
+        "PM10 (ug/m3)": 544.2,
+        "PM2.5 (ug/m3)": 406.7,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RF-005",
-        "Temperatura (C)": 23.89,
-        "AQ PM 2.5": "Mala",
-        "AQ PM 10": "Aceptable"
+        "Temperatura (C)": 28.33,
+        "AQ PM 2.5": "Extremadamente mala",
+        "AQ PM 10": "Extremadamente mala"
       }
     },
     {
@@ -885,16 +885,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 60.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 52.0,
         "ID Sensor": "292905",
-        "PM1.0 (ug/m3)": 6.8,
-        "PM10 (ug/m3)": 9.0,
-        "PM2.5 (ug/m3)": 7.9,
+        "PM1.0 (ug/m3)": 18.3,
+        "PM10 (ug/m3)": 27.7,
+        "PM2.5 (ug/m3)": 21.6,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RC-006",
-        "Temperatura (C)": 25.0,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 27.78,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -908,15 +908,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 0.0,
         "ID Sensor": "292943",
-        "PM1.0 (ug/m3)": 16.6,
-        "PM10 (ug/m3)": 26.8,
-        "PM2.5 (ug/m3)": 21.1,
+        "PM1.0 (ug/m3)": 17.1,
+        "PM10 (ug/m3)": 30.7,
+        "PM2.5 (ug/m3)": 21.8,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RC-005",
-        "Temperatura (C)": 27.22,
+        "Temperatura (C)": 36.11,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -931,16 +931,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 61.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 50.0,
         "ID Sensor": "292939",
-        "PM1.0 (ug/m3)": 11.8,
-        "PM10 (ug/m3)": 16.3,
-        "PM2.5 (ug/m3)": 14.4,
+        "PM1.0 (ug/m3)": 21.4,
+        "PM10 (ug/m3)": 35.1,
+        "PM2.5 (ug/m3)": 29.4,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RA-001",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 26.11,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -954,16 +954,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 63.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 29.0,
         "ID Sensor": "292949",
-        "PM1.0 (ug/m3)": 10.9,
-        "PM10 (ug/m3)": 14.7,
-        "PM2.5 (ug/m3)": 13.0,
+        "PM1.0 (ug/m3)": 25.2,
+        "PM10 (ug/m3)": 42.7,
+        "PM2.5 (ug/m3)": 34.3,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RA-003",
-        "Temperatura (C)": 21.67,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 36.11,
+        "AQ PM 2.5": "Mala",
         "AQ PM 10": "Bueno"
       }
     },
@@ -977,15 +977,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 59.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 46.0,
         "ID Sensor": "292951",
-        "PM1.0 (ug/m3)": 12.9,
-        "PM10 (ug/m3)": 18.0,
-        "PM2.5 (ug/m3)": 16.1,
+        "PM1.0 (ug/m3)": 21.5,
+        "PM10 (ug/m3)": 32.7,
+        "PM2.5 (ug/m3)": 29.2,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RB-004",
-        "Temperatura (C)": 22.78,
+        "Temperatura (C)": 28.33,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1000,17 +1000,17 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 59.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 50.0,
         "ID Sensor": "292947",
-        "PM1.0 (ug/m3)": 16.3,
-        "PM10 (ug/m3)": 23.1,
-        "PM2.5 (ug/m3)": 20.3,
+        "PM1.0 (ug/m3)": 32.8,
+        "PM10 (ug/m3)": 58.6,
+        "PM2.5 (ug/m3)": 45.3,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RA-004",
-        "Temperatura (C)": 22.78,
-        "AQ PM 2.5": "Aceptable",
-        "AQ PM 10": "Bueno"
+        "Temperatura (C)": 26.67,
+        "AQ PM 2.5": "Mala",
+        "AQ PM 10": "Aceptable"
       }
     },
     {
@@ -1023,7 +1023,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 62.0,
         "ID Sensor": "292957",
         "PM1.0 (ug/m3)": 14.3,
@@ -1046,15 +1046,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 59.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 49.0,
         "ID Sensor": "292973",
-        "PM1.0 (ug/m3)": 12.4,
-        "PM10 (ug/m3)": 18.7,
-        "PM2.5 (ug/m3)": 15.8,
+        "PM1.0 (ug/m3)": 22.3,
+        "PM10 (ug/m3)": 37.7,
+        "PM2.5 (ug/m3)": 31.1,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RC-003",
-        "Temperatura (C)": 23.89,
+        "Temperatura (C)": 27.22,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1069,15 +1069,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 70.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 33.0,
         "ID Sensor": "292997",
-        "PM1.0 (ug/m3)": 22.0,
-        "PM10 (ug/m3)": 38.1,
-        "PM2.5 (ug/m3)": 30.5,
+        "PM1.0 (ug/m3)": 23.6,
+        "PM10 (ug/m3)": 41.7,
+        "PM2.5 (ug/m3)": 32.2,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RF-004",
-        "Temperatura (C)": 20.0,
+        "Temperatura (C)": 33.33,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1092,15 +1092,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 55.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 40.0,
         "ID Sensor": "292999",
-        "PM1.0 (ug/m3)": 15.8,
-        "PM10 (ug/m3)": 33.7,
-        "PM2.5 (ug/m3)": 21.3,
+        "PM1.0 (ug/m3)": 15.9,
+        "PM10 (ug/m3)": 30.1,
+        "PM2.5 (ug/m3)": 21.1,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RE-002",
-        "Temperatura (C)": 25.0,
+        "Temperatura (C)": 30.56,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1115,15 +1115,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 63.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 30.0,
         "ID Sensor": "293001",
-        "PM1.0 (ug/m3)": 12.6,
-        "PM10 (ug/m3)": 19.2,
-        "PM2.5 (ug/m3)": 16.1,
+        "PM1.0 (ug/m3)": 15.9,
+        "PM10 (ug/m3)": 26.4,
+        "PM2.5 (ug/m3)": 20.7,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RF-006",
-        "Temperatura (C)": 22.22,
+        "Temperatura (C)": 35.56,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1138,15 +1138,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 62.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 47.0,
         "ID Sensor": "293003",
-        "PM1.0 (ug/m3)": 16.0,
-        "PM10 (ug/m3)": 22.8,
-        "PM2.5 (ug/m3)": 19.7,
+        "PM1.0 (ug/m3)": 18.5,
+        "PM10 (ug/m3)": 27.5,
+        "PM2.5 (ug/m3)": 22.9,
         "Red": "PurpleAir",
         "Sensor": "TEC-AMM-RB-006",
-        "Temperatura (C)": 23.33,
+        "Temperatura (C)": 27.22,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1161,7 +1161,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 27.0,
         "ID Sensor": "293469",
         "PM1.0 (ug/m3)": 1.2,
@@ -1184,16 +1184,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 55.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 43.0,
         "ID Sensor": "293465",
-        "PM1.0 (ug/m3)": 12.7,
-        "PM10 (ug/m3)": 17.4,
-        "PM2.5 (ug/m3)": 16.1,
+        "PM1.0 (ug/m3)": 23.4,
+        "PM10 (ug/m3)": 39.0,
+        "PM2.5 (ug/m3)": 33.1,
         "Red": "PurpleAir",
         "Sensor": "Loma Larga",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Aceptable",
+        "Temperatura (C)": 28.33,
+        "AQ PM 2.5": "Mala",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1207,7 +1207,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": null,
         "ID Sensor": "293467",
         "PM1.0 (ug/m3)": 7.1,
@@ -1230,15 +1230,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 60.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 46.0,
         "ID Sensor": "33027",
         "PM1.0 (ug/m3)": 0.0,
         "PM10 (ug/m3)": 0.0,
         "PM2.5 (ug/m3)": 0.0,
         "Red": "PurpleAir",
         "Sensor": "Lagos del Bosque",
-        "Temperatura (C)": 21.67,
+        "Temperatura (C)": 27.22,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -1253,16 +1253,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 100.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 74.0,
         "ID Sensor": "33117",
-        "PM1.0 (ug/m3)": 12.2,
-        "PM10 (ug/m3)": 15.7,
-        "PM2.5 (ug/m3)": 14.8,
+        "PM1.0 (ug/m3)": 22.1,
+        "PM10 (ug/m3)": 36.9,
+        "PM2.5 (ug/m3)": 33.0,
         "Red": "PurpleAir",
         "Sensor": "Liceo de Monterrey",
-        "Temperatura (C)": 21.67,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 27.22,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1276,15 +1276,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 51.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 46.0,
         "ID Sensor": "34441",
-        "PM1.0 (ug/m3)": 2.3,
-        "PM10 (ug/m3)": 4.3,
-        "PM2.5 (ug/m3)": 4.0,
+        "PM1.0 (ug/m3)": 7.3,
+        "PM10 (ug/m3)": 14.5,
+        "PM2.5 (ug/m3)": 12.3,
         "Red": "PurpleAir",
         "Sensor": "Callejon de los Ayala",
-        "Temperatura (C)": 25.56,
+        "Temperatura (C)": 28.33,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -1299,15 +1299,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 52.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 48.0,
         "ID Sensor": "34499",
-        "PM1.0 (ug/m3)": 0.1,
-        "PM10 (ug/m3)": 0.5,
-        "PM2.5 (ug/m3)": 0.5,
+        "PM1.0 (ug/m3)": 0.5,
+        "PM10 (ug/m3)": 0.8,
+        "PM2.5 (ug/m3)": 0.8,
         "Red": "PurpleAir",
         "Sensor": "San Patricio #106",
-        "Temperatura (C)": 25.56,
+        "Temperatura (C)": 27.22,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -1322,16 +1322,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 62.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 51.0,
         "ID Sensor": "34511",
-        "PM1.0 (ug/m3)": 7.1,
-        "PM10 (ug/m3)": 10.1,
-        "PM2.5 (ug/m3)": 9.7,
+        "PM1.0 (ug/m3)": 14.2,
+        "PM10 (ug/m3)": 22.1,
+        "PM2.5 (ug/m3)": 20.0,
         "Red": "PurpleAir",
         "Sensor": "Rosario",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 26.67,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1345,7 +1345,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 34.0,
         "ID Sensor": "38663",
         "PM1.0 (ug/m3)": 17.1,
@@ -1368,15 +1368,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 49.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 47.0,
         "ID Sensor": "42211",
-        "PM1.0 (ug/m3)": 3.6,
-        "PM10 (ug/m3)": 5.6,
-        "PM2.5 (ug/m3)": 5.2,
+        "PM1.0 (ug/m3)": 5.5,
+        "PM10 (ug/m3)": 7.8,
+        "PM2.5 (ug/m3)": 7.2,
         "Red": "PurpleAir",
         "Sensor": "RF",
-        "Temperatura (C)": 25.56,
+        "Temperatura (C)": 27.22,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -1391,12 +1391,12 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": null,
         "ID Sensor": "305140",
-        "PM1.0 (ug/m3)": 19.1,
-        "PM10 (ug/m3)": 30.2,
-        "PM2.5 (ug/m3)": 25.5,
+        "PM1.0 (ug/m3)": 21.2,
+        "PM10 (ug/m3)": 36.6,
+        "PM2.5 (ug/m3)": 29.5,
         "Red": "PurpleAir",
         "Sensor": "Bicla",
         "Temperatura (C)": null,
@@ -1414,15 +1414,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 63.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 33.0,
         "ID Sensor": "305164",
-        "PM1.0 (ug/m3)": 15.2,
-        "PM10 (ug/m3)": 24.3,
-        "PM2.5 (ug/m3)": 20.4,
+        "PM1.0 (ug/m3)": 21.6,
+        "PM10 (ug/m3)": 36.5,
+        "PM2.5 (ug/m3)": 29.9,
         "Red": "PurpleAir",
         "Sensor": "NuevaMaderoDave",
-        "Temperatura (C)": 22.22,
+        "Temperatura (C)": 32.78,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1437,16 +1437,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 59.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 38.0,
         "ID Sensor": "305192",
-        "PM1.0 (ug/m3)": 14.6,
-        "PM10 (ug/m3)": 22.4,
-        "PM2.5 (ug/m3)": 19.1,
+        "PM1.0 (ug/m3)": 24.7,
+        "PM10 (ug/m3)": 43.1,
+        "PM2.5 (ug/m3)": 33.8,
         "Red": "PurpleAir",
         "Sensor": "11a avenida cumbres 1 sector",
-        "Temperatura (C)": 22.78,
-        "AQ PM 2.5": "Aceptable",
+        "Temperatura (C)": 30.0,
+        "AQ PM 2.5": "Mala",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1460,15 +1460,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 61.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 42.0,
         "ID Sensor": "305232",
-        "PM1.0 (ug/m3)": 13.7,
-        "PM10 (ug/m3)": 19.6,
-        "PM2.5 (ug/m3)": 16.9,
+        "PM1.0 (ug/m3)": 17.1,
+        "PM10 (ug/m3)": 23.5,
+        "PM2.5 (ug/m3)": 20.9,
         "Red": "PurpleAir",
         "Sensor": "PurpleAir Ancira Mty",
-        "Temperatura (C)": 21.67,
+        "Temperatura (C)": 28.33,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1483,7 +1483,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 100.0,
         "ID Sensor": "43627",
         "PM1.0 (ug/m3)": 29.9,
@@ -1506,16 +1506,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 60.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 33.0,
         "ID Sensor": "45769",
-        "PM1.0 (ug/m3)": 10.6,
-        "PM10 (ug/m3)": 15.0,
-        "PM2.5 (ug/m3)": 14.0,
+        "PM1.0 (ug/m3)": 11.7,
+        "PM10 (ug/m3)": 16.5,
+        "PM2.5 (ug/m3)": 15.2,
         "Red": "PurpleAir",
         "Sensor": "Huascaran",
-        "Temperatura (C)": 21.67,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 33.89,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1529,15 +1529,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 64.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 37.0,
         "ID Sensor": "308956",
-        "PM1.0 (ug/m3)": 14.0,
-        "PM10 (ug/m3)": 19.9,
-        "PM2.5 (ug/m3)": 17.7,
+        "PM1.0 (ug/m3)": 14.4,
+        "PM10 (ug/m3)": 22.8,
+        "PM2.5 (ug/m3)": 18.6,
         "Red": "PurpleAir",
         "Sensor": "Jardín de las carreras",
-        "Temperatura (C)": 21.11,
+        "Temperatura (C)": 31.67,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1552,15 +1552,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 100.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 83.0,
         "ID Sensor": "49949",
-        "PM1.0 (ug/m3)": 19.4,
-        "PM10 (ug/m3)": 28.1,
-        "PM2.5 (ug/m3)": 27.0,
+        "PM1.0 (ug/m3)": 15.2,
+        "PM10 (ug/m3)": 23.0,
+        "PM2.5 (ug/m3)": 21.5,
         "Red": "PurpleAir",
         "Sensor": "El Horizonte",
-        "Temperatura (C)": 24.44,
+        "Temperatura (C)": 28.89,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1575,15 +1575,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 57.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 46.0,
         "ID Sensor": "50555",
         "PM1.0 (ug/m3)": 0.0,
         "PM10 (ug/m3)": 0.0,
         "PM2.5 (ug/m3)": 0.0,
         "Red": "PurpleAir",
         "Sensor": "Treviño",
-        "Temperatura (C)": 22.78,
+        "Temperatura (C)": 29.44,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -1598,7 +1598,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 100.0,
         "ID Sensor": "50871",
         "PM1.0 (ug/m3)": 9.4,
@@ -1621,15 +1621,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 61.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 34.0,
         "ID Sensor": "321194",
-        "PM1.0 (ug/m3)": 8.2,
-        "PM10 (ug/m3)": 10.9,
-        "PM2.5 (ug/m3)": 10.3,
+        "PM1.0 (ug/m3)": 11.5,
+        "PM10 (ug/m3)": 16.4,
+        "PM2.5 (ug/m3)": 14.8,
         "Red": "PurpleAir",
         "Sensor": "Ramsesgs",
-        "Temperatura (C)": 20.56,
+        "Temperatura (C)": 31.67,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -1644,16 +1644,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 59.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 48.0,
         "ID Sensor": "119937",
-        "PM1.0 (ug/m3)": 5.5,
-        "PM10 (ug/m3)": 9.8,
-        "PM2.5 (ug/m3)": 8.6,
+        "PM1.0 (ug/m3)": 10.2,
+        "PM10 (ug/m3)": 21.4,
+        "PM2.5 (ug/m3)": 19.8,
         "Red": "PurpleAir",
         "Sensor": "Grupo Reforma Cumbres",
-        "Temperatura (C)": 23.89,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 27.78,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1667,16 +1667,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": null,
         "ID Sensor": "119965",
-        "PM1.0 (ug/m3)": 11.3,
-        "PM10 (ug/m3)": 15.4,
-        "PM2.5 (ug/m3)": 14.3,
+        "PM1.0 (ug/m3)": 14.7,
+        "PM10 (ug/m3)": 23.7,
+        "PM2.5 (ug/m3)": 21.2,
         "Red": "PurpleAir",
         "Sensor": "Grupo Reforma El Norte",
         "Temperatura (C)": null,
-        "AQ PM 2.5": "Bueno",
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1690,16 +1690,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 55.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 46.0,
         "ID Sensor": "121719",
-        "PM1.0 (ug/m3)": 3.0,
-        "PM10 (ug/m3)": 4.4,
-        "PM2.5 (ug/m3)": 4.2,
+        "PM1.0 (ug/m3)": 8.8,
+        "PM10 (ug/m3)": 17.8,
+        "PM2.5 (ug/m3)": 16.3,
         "Red": "PurpleAir",
         "Sensor": "GrupoReforma La Silla",
-        "Temperatura (C)": 24.44,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 28.33,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1713,15 +1713,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 60.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 49.0,
         "ID Sensor": "136522",
-        "PM1.0 (ug/m3)": 2.0,
-        "PM10 (ug/m3)": 4.6,
-        "PM2.5 (ug/m3)": 3.9,
+        "PM1.0 (ug/m3)": 6.4,
+        "PM10 (ug/m3)": 11.4,
+        "PM2.5 (ug/m3)": 10.4,
         "Red": "PurpleAir",
         "Sensor": "Bosques de La Pastora",
-        "Temperatura (C)": 23.89,
+        "Temperatura (C)": 27.22,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -1736,16 +1736,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 78.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 44.0,
         "ID Sensor": "147010",
-        "PM1.0 (ug/m3)": 7.6,
-        "PM10 (ug/m3)": 10.0,
-        "PM2.5 (ug/m3)": 9.1,
+        "PM1.0 (ug/m3)": 21.4,
+        "PM10 (ug/m3)": 36.5,
+        "PM2.5 (ug/m3)": 30.7,
         "Red": "PurpleAir",
         "Sensor": "Santa Barbara",
-        "Temperatura (C)": 20.0,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 30.0,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1759,15 +1759,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 45.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 33.0,
         "ID Sensor": "174781",
-        "PM1.0 (ug/m3)": 15.1,
-        "PM10 (ug/m3)": 20.3,
-        "PM2.5 (ug/m3)": 17.9,
+        "PM1.0 (ug/m3)": 22.7,
+        "PM10 (ug/m3)": 36.0,
+        "PM2.5 (ug/m3)": 29.8,
         "Red": "PurpleAir",
         "Sensor": "Colegio Cambridge de Monterrey Campus Mitras",
-        "Temperatura (C)": 28.89,
+        "Temperatura (C)": 36.11,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1782,16 +1782,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 45.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 40.0,
         "ID Sensor": "174787",
-        "PM1.0 (ug/m3)": 13.4,
-        "PM10 (ug/m3)": 20.5,
-        "PM2.5 (ug/m3)": 16.3,
+        "PM1.0 (ug/m3)": 11.4,
+        "PM10 (ug/m3)": 17.1,
+        "PM2.5 (ug/m3)": 13.3,
         "Red": "PurpleAir",
         "Sensor": "Colegio Cambridge de Monterrey Campus Norte",
-        "Temperatura (C)": 27.78,
-        "AQ PM 2.5": "Aceptable",
+        "Temperatura (C)": 30.56,
+        "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1805,16 +1805,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 63.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 36.0,
         "ID Sensor": "189431",
-        "PM1.0 (ug/m3)": 10.4,
-        "PM10 (ug/m3)": 14.6,
-        "PM2.5 (ug/m3)": 13.9,
+        "PM1.0 (ug/m3)": 22.0,
+        "PM10 (ug/m3)": 37.0,
+        "PM2.5 (ug/m3)": 32.8,
         "Red": "PurpleAir",
         "Sensor": "BEA",
-        "Temperatura (C)": 20.56,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 31.67,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1828,16 +1828,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 65.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 60.0,
         "ID Sensor": "189435",
-        "PM1.0 (ug/m3)": 5.4,
-        "PM10 (ug/m3)": 6.7,
-        "PM2.5 (ug/m3)": 6.7,
+        "PM1.0 (ug/m3)": 15.7,
+        "PM10 (ug/m3)": 21.2,
+        "PM2.5 (ug/m3)": 20.8,
         "Red": "PurpleAir",
         "Sensor": "Olinalá",
-        "Temperatura (C)": 17.78,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 21.11,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1851,17 +1851,17 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 66.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 41.0,
         "ID Sensor": "189447",
-        "PM1.0 (ug/m3)": 14.6,
-        "PM10 (ug/m3)": 19.7,
-        "PM2.5 (ug/m3)": 19.3,
+        "PM1.0 (ug/m3)": 26.4,
+        "PM10 (ug/m3)": 46.3,
+        "PM2.5 (ug/m3)": 39.4,
         "Red": "PurpleAir",
         "Sensor": "Río Amazonas NO",
-        "Temperatura (C)": 20.56,
-        "AQ PM 2.5": "Aceptable",
-        "AQ PM 10": "Bueno"
+        "Temperatura (C)": 28.89,
+        "AQ PM 2.5": "Mala",
+        "AQ PM 10": "Aceptable"
       }
     },
     {
@@ -1874,16 +1874,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 72.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 58.0,
         "ID Sensor": "189455",
-        "PM1.0 (ug/m3)": 4.9,
-        "PM10 (ug/m3)": 7.4,
-        "PM2.5 (ug/m3)": 7.3,
+        "PM1.0 (ug/m3)": 12.9,
+        "PM10 (ug/m3)": 18.7,
+        "PM2.5 (ug/m3)": 18.3,
         "Red": "PurpleAir",
         "Sensor": "CHIPINQUE CAV",
-        "Temperatura (C)": 17.78,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 23.89,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1897,16 +1897,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 62.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 48.0,
         "ID Sensor": "189469",
-        "PM1.0 (ug/m3)": 7.6,
-        "PM10 (ug/m3)": 9.9,
-        "PM2.5 (ug/m3)": 9.7,
+        "PM1.0 (ug/m3)": 21.2,
+        "PM10 (ug/m3)": 33.5,
+        "PM2.5 (ug/m3)": 31.2,
         "Red": "PurpleAir",
         "Sensor": "Hospital Zambran Hellion TecSalud",
-        "Temperatura (C)": 20.56,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 25.56,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -1920,15 +1920,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 49.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 41.0,
         "ID Sensor": "208785",
-        "PM1.0 (ug/m3)": 18.6,
-        "PM10 (ug/m3)": 28.4,
-        "PM2.5 (ug/m3)": 24.4,
+        "PM1.0 (ug/m3)": 20.5,
+        "PM10 (ug/m3)": 30.7,
+        "PM2.5 (ug/m3)": 25.3,
         "Red": "PurpleAir",
         "Sensor": "Colegio Cambridge de Monterrey Campus Anáhuac",
-        "Temperatura (C)": 26.67,
+        "Temperatura (C)": 30.0,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1943,17 +1943,17 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 58.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 46.0,
         "ID Sensor": "209147",
-        "PM1.0 (ug/m3)": 14.5,
-        "PM10 (ug/m3)": 20.5,
-        "PM2.5 (ug/m3)": 19.6,
+        "PM1.0 (ug/m3)": 24.6,
+        "PM10 (ug/m3)": 45.1,
+        "PM2.5 (ug/m3)": 37.9,
         "Red": "PurpleAir",
         "Sensor": "Rincon de San Jeronimo",
-        "Temperatura (C)": 23.33,
-        "AQ PM 2.5": "Aceptable",
-        "AQ PM 10": "Bueno"
+        "Temperatura (C)": 27.78,
+        "AQ PM 2.5": "Mala",
+        "AQ PM 10": "Aceptable"
       }
     },
     {
@@ -1966,15 +1966,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 61.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 49.0,
         "ID Sensor": "227879",
-        "PM1.0 (ug/m3)": 12.4,
-        "PM10 (ug/m3)": 16.5,
-        "PM2.5 (ug/m3)": 15.4,
+        "PM1.0 (ug/m3)": 15.0,
+        "PM10 (ug/m3)": 20.0,
+        "PM2.5 (ug/m3)": 18.2,
         "Red": "PurpleAir",
         "Sensor": "Rectoria",
-        "Temperatura (C)": 22.78,
+        "Temperatura (C)": 27.22,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -1989,7 +1989,7 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
         "Humedad Relativa (%)": 51.0,
         "ID Sensor": "227887",
         "PM1.0 (ug/m3)": 2.7,
@@ -2012,15 +2012,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 66.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 38.0,
         "ID Sensor": "227889",
-        "PM1.0 (ug/m3)": 8.2,
-        "PM10 (ug/m3)": 11.8,
-        "PM2.5 (ug/m3)": 10.0,
+        "PM1.0 (ug/m3)": 11.5,
+        "PM10 (ug/m3)": 15.5,
+        "PM2.5 (ug/m3)": 13.9,
         "Red": "PurpleAir",
         "Sensor": "Parque central",
-        "Temperatura (C)": 22.22,
+        "Temperatura (C)": 33.33,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -2035,16 +2035,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 63.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 53.0,
         "ID Sensor": "227907",
-        "PM1.0 (ug/m3)": 18.2,
-        "PM10 (ug/m3)": 31.8,
-        "PM2.5 (ug/m3)": 25.2,
+        "PM1.0 (ug/m3)": 23.0,
+        "PM10 (ug/m3)": 44.2,
+        "PM2.5 (ug/m3)": 33.1,
         "Red": "PurpleAir",
         "Sensor": "Estacionamiento Alumnos",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Aceptable",
+        "Temperatura (C)": 25.56,
+        "AQ PM 2.5": "Mala",
         "AQ PM 10": "Bueno"
       }
     },
@@ -2058,16 +2058,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 60.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 53.0,
         "ID Sensor": "227913",
-        "PM1.0 (ug/m3)": 6.8,
-        "PM10 (ug/m3)": 10.1,
-        "PM2.5 (ug/m3)": 8.6,
+        "PM1.0 (ug/m3)": 20.0,
+        "PM10 (ug/m3)": 32.1,
+        "PM2.5 (ug/m3)": 27.6,
         "Red": "PurpleAir",
         "Sensor": "EGADE-Sombrillas",
-        "Temperatura (C)": 22.22,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 25.0,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -2081,15 +2081,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 64.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 51.0,
         "ID Sensor": "228003",
-        "PM1.0 (ug/m3)": 6.6,
-        "PM10 (ug/m3)": 8.8,
-        "PM2.5 (ug/m3)": 8.0,
+        "PM1.0 (ug/m3)": 10.4,
+        "PM10 (ug/m3)": 15.4,
+        "PM2.5 (ug/m3)": 13.4,
         "Red": "PurpleAir",
         "Sensor": "EGL-Jardín Robótica",
-        "Temperatura (C)": 21.67,
+        "Temperatura (C)": 26.11,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -2104,15 +2104,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 66.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 51.0,
         "ID Sensor": "228001",
-        "PM1.0 (ug/m3)": 17.7,
-        "PM10 (ug/m3)": 26.5,
-        "PM2.5 (ug/m3)": 24.1,
+        "PM1.0 (ug/m3)": 19.1,
+        "PM10 (ug/m3)": 28.0,
+        "PM2.5 (ug/m3)": 24.6,
         "Red": "PurpleAir",
         "Sensor": "C-MTY Explanada 2",
-        "Temperatura (C)": 22.22,
+        "Temperatura (C)": 27.22,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -2127,15 +2127,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 62.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 39.0,
         "ID Sensor": "228383",
-        "PM1.0 (ug/m3)": 12.3,
-        "PM10 (ug/m3)": 17.7,
-        "PM2.5 (ug/m3)": 15.2,
+        "PM1.0 (ug/m3)": 14.2,
+        "PM10 (ug/m3)": 20.5,
+        "PM2.5 (ug/m3)": 18.0,
         "Red": "PurpleAir",
         "Sensor": "Estadio Banorte",
-        "Temperatura (C)": 22.22,
+        "Temperatura (C)": 30.56,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
@@ -2150,16 +2150,16 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 67.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 46.0,
         "ID Sensor": "228381",
-        "PM1.0 (ug/m3)": 9.6,
-        "PM10 (ug/m3)": 12.7,
-        "PM2.5 (ug/m3)": 11.7,
+        "PM1.0 (ug/m3)": 15.2,
+        "PM10 (ug/m3)": 21.4,
+        "PM2.5 (ug/m3)": 19.3,
         "Red": "PurpleAir",
         "Sensor": "C-MTY RAMPA CAFETERÍA",
-        "Temperatura (C)": 21.67,
-        "AQ PM 2.5": "Bueno",
+        "Temperatura (C)": 28.89,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 10": "Bueno"
       }
     },
@@ -2173,17 +2173,17 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 59.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 48.0,
         "ID Sensor": "228389",
-        "PM1.0 (ug/m3)": 14.5,
-        "PM10 (ug/m3)": 20.3,
-        "PM2.5 (ug/m3)": 17.4,
+        "PM1.0 (ug/m3)": 28.9,
+        "PM10 (ug/m3)": 50.5,
+        "PM2.5 (ug/m3)": 39.9,
         "Red": "PurpleAir",
         "Sensor": "PEGS-Sensor-Canchas",
-        "Temperatura (C)": 23.33,
-        "AQ PM 2.5": "Aceptable",
-        "AQ PM 10": "Bueno"
+        "Temperatura (C)": 26.67,
+        "AQ PM 2.5": "Mala",
+        "AQ PM 10": "Aceptable"
       }
     },
     {
@@ -2196,15 +2196,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 60.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 32.0,
         "ID Sensor": "228407",
-        "PM1.0 (ug/m3)": 11.9,
-        "PM10 (ug/m3)": 18.3,
-        "PM2.5 (ug/m3)": 14.4,
+        "PM1.0 (ug/m3)": 11.2,
+        "PM10 (ug/m3)": 15.9,
+        "PM2.5 (ug/m3)": 13.5,
         "Red": "PurpleAir",
         "Sensor": "CEDES",
-        "Temperatura (C)": 24.44,
+        "Temperatura (C)": 36.67,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
@@ -2219,15 +2219,15 @@
         ]
       },
       "properties": {
-        "Fecha": "2026-10-22T11:32:10.468262+00:00",
-        "Humedad Relativa (%)": 68.0,
+        "Fecha": "2026-10-22T16:01:32.270644+00:00",
+        "Humedad Relativa (%)": 46.0,
         "ID Sensor": "228555",
-        "PM1.0 (ug/m3)": 6.8,
-        "PM10 (ug/m3)": 8.3,
-        "PM2.5 (ug/m3)": 7.9,
+        "PM1.0 (ug/m3)": 10.0,
+        "PM10 (ug/m3)": 13.3,
+        "PM2.5 (ug/m3)": 12.4,
         "Red": "PurpleAir",
         "Sensor": "EGL-JARDÍN ROB",
-        "Temperatura (C)": 20.56,
+        "Temperatura (C)": 28.89,
         "AQ PM 2.5": "Bueno",
         "AQ PM 10": "Bueno"
       }
